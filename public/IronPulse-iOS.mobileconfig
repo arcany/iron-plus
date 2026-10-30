@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>FullScreen</key>
+      <true/>
+      <key>IsRemovable</key>
+      <true/>
+      <key>Label</key>
+      <string>IronPulse Gym</string>
+      <key>PayloadDescription</key>
+      <string>تثبيت تطبيق إدارة الجيم المتكامل IronPulse على الشاشة الرئيسية للآيفون</string>
+      <key>PayloadDisplayName</key>
+      <string>IronPulse Gym iOS App</string>
+      <key>PayloadIdentifier</key>
+      <string>com.ironpulse.gymerp.webclip</string>
+      <key>PayloadType</key>
+      <string>com.apple.webClip.managed</string>
+      <key>PayloadUUID</key>
+      <string>A1B2C3D4-E5F6-4A5B-8C9D-0E1F2A3B4C5D</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>Precomposed</key>
+      <true/>
+      <key>URL</key>
+      <string>https://ais-dev-7c4dtny763c3a7gcena3uq-159508686400.europe-west2.run.app/?platform=ios</string>
+    </dict>
+  </array>
+  <key>PayloadDescription</key>
+  <string>حزمة تثبيت تطبيق IronPulse الرسمي لإدارة الجيم على أجهزة iPhone و iPad بوضع ملء الشاشة المستقل.</string>
+  <key>PayloadDisplayName</key>
+  <string>IronPulse — تطبيق إدارة الجيم (iOS)</string>
+  <key>PayloadIdentifier</key>
+  <string>com.ironpulse.gymerp.profile</string>
+  <key>PayloadOrganization</key>
+  <string>IronPulse Gym ERP</string>
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>F1E2D3C4-B5A6-4987-8765-43210FEDCBA9</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>

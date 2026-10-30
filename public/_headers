@@ -1,0 +1,16 @@
+/manifest.webmanifest
+  Content-Type: application/manifest+json; charset=utf-8
+  Cache-Control: public, max-age=0, must-revalidate
+
+/sw.js
+  Content-Type: application/javascript; charset=utf-8
+  Cache-Control: public, max-age=0, must-revalidate
+  Service-Worker-Allowed: /
+
+/IronPulse-iOS.mobileconfig
+  Content-Type: application/x-apple-aspen-config
+  Content-Disposition: attachment; filename="IronPulse-iOS-App.mobileconfig"
+
+/IronPulse-Android-App.html
+  Content-Type: text/html; charset=utf-8
+  Content-Disposition: attachment; filename="IronPulse-Android-App.html"

@@ -1,0 +1,51 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: 'Cairo', 'Plus Jakarta Sans', sans-serif;
+  --font-mono: 'Cairo', 'IBM Plex Mono', monospace;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+  }
+
+  .font-mono {
+    font-variant-numeric: tabular-nums;
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Ensure authentic single/dual-column mobile layout inside the 480px Android/iOS App Frame even on large monitors */
+.mobile-app-simulator .xl\:grid-cols-6 {
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+}
+
+.mobile-app-simulator .lg\:grid-cols-12,
+.mobile-app-simulator .xl\:grid-cols-4,
+.mobile-app-simulator .lg\:grid-cols-4 {
+  grid-template-columns: minmax(0, 1fr) !important;
+}
+
+.mobile-app-simulator .lg\:col-span-7,
+.mobile-app-simulator .lg\:col-span-6,
+.mobile-app-simulator .lg\:col-span-5 {
+  grid-column: span 1 / span 1 !important;
+}
+
+.mobile-app-simulator .md\:flex-row,
+.mobile-app-simulator .lg\:flex-row,
+.mobile-app-simulator .xl\:flex-row {
+  flex-direction: column !important;
+  align-items: stretch !important;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}

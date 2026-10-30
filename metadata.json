@@ -1,0 +1,6 @@
+{
+  "name": "IronPulse — نظام إدارة الجيم المتكامل",
+  "description": "نظام احترافي شامل لإدارة الصالات الرياضية، تسجيل الأعضاء والاشتراكات، بوابة الحضور بالباركود، متابعة المدفوعات، التنبيهات، والتقارير الإحصائية.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
